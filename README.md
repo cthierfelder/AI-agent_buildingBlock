@@ -44,7 +44,10 @@ graph LR
 ### 2. Memory
 **Context persistence across interactions**
 
-LLMs don't remember anything from previous messages. **Without memory, each interaction starts from scratch** because LLMs are stateless. So you need to manually pass in the conversation history each time. This is just *storing and passing conversation state* - something we've been doing in web apps forever.
+- LLMs don't remember anything from previous messages.
+- **Without memory, each interaction starts from scratch** because LLMs are stateless.
+- So you need to manually pass in the conversation history each time.
+- This is just *storing and passing conversation state* - something we've been doing in web apps forever.
 
 ```mermaid
 graph LR
@@ -57,7 +60,10 @@ graph LR
 ### 3. Tools
 **External system integration capabilities**
 
-Most of the time you need your LLM to actually do stuff, not just chat. **Pure text generation is limited** - you want to call APIs, update databases, or read files. Tools let the LLM say "I need to call this function with these parameters" and your code handles the actual execution. This is just *normal API integration* where the LLM picks what to call and provides JSON input for the arguments.
+- Most of the time you need your LLM to actually do stuff, not just chat.
+- **Pure text generation is limited** - you want to call APIs, update databases, or read files.
+- Tools let the LLM say "I need to call this function with these parameters" and your code handles the actual execution.
+- This is just *normal API integration* where the LLM picks what to call and provides JSON input for the arguments.
 
 ```mermaid
 graph LR
