@@ -74,6 +74,16 @@ graph LR
     E --> I
 ```
 
+- Function calling: Call custom code to give the model access to additional data and capabilities.
+- Web search: Include data from the Internet in model response generation.
+- Remote MCP servers: Give the model access to new capabilities via Model Context Protocol (MCP) servers.
+- File search: Search the contents of uploaded files for context when generating a response.
+- Image generation: Generate or edit images using GPT Image.
+- Code interpreter: Allow the model to execute code in a secure container.
+- Computer use: Create agentic workflows that enable a model to control a computer interface.
+
+
+
 ### 4. Validation
 **Quality assurance and structured data enforcement**
 
