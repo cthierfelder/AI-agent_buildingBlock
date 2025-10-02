@@ -64,6 +64,9 @@ graph LR
 - **Pure text generation is limited** - you want to call APIs, update databases, or read files.
 - Tools let the LLM say "I need to call this function with these parameters" and your code handles the actual execution.
 - This is just *normal API integration* where the LLM picks what to call and provides JSON input for the arguments.
+- BE CAREFUL WITH TOOL CALLS: *better to use structured output, let LLM decide on category and then use rounter for LLM tool or function*
+      -- same result
+      -- but easier to debug
 
 ```mermaid
 graph LR
@@ -107,6 +110,7 @@ graph LR
 - You don't want your LLM making every decision - some things should be handled by regular code.
 - Use regular code if/else statements, switch cases, and routing logic to direct flow based on conditions.
 - This is just *normal business logic and routing* that you'd write in any application.
+- **Better to do this than a immediate tool call**
 
 ```mermaid
 graph LR
