@@ -1,4 +1,4 @@
-# The 7 Foundational Building Blocks of AI Agents
+# The 7 Foundational Building Blocks of AI Agents - How to Build Reliable AI Agents in 2025
 
 ## What I Learned Building Real AI Applications
 
@@ -64,9 +64,9 @@ graph LR
 - **Pure text generation is limited** - you want to call APIs, update databases, or read files.
 - Tools let the LLM say "I need to call this function with these parameters" and your code handles the actual execution.
 - This is just *normal API integration* where the LLM picks what to call and provides JSON input for the arguments.
-- BE CAREFUL WITH TOOL CALLS: *better to use structured output, let LLM decide on category and then use rounter for LLM tool or function*
-      ++ same result
-      ++ but easier to debug
+- BE CAREFUL WITH TOOL CALLS: *better to use structured output, let LLM decide on category and then use router for LLM tool or function*
+      + same result
+      + but easier to debug (as you can see reasoning)
 
 ```mermaid
 graph LR
