@@ -88,7 +88,11 @@ Tools available
 ### 4. Validation
 **Quality assurance and structured data enforcement**
 
-You need to make sure the LLM returns JSON that matches your expected schema. **LLMs are probabilistic and can produce inconsistent outputs**, so you validate the JSON output against a predefined structure. If validation fails, you can send it back to the LLM to fix it. This ensures downstream code can reliably work with the data. This is just *normal schema validation* with retry logic using tools like Pydantic, Zod, or data classes.
+- You need to make sure the LLM returns JSON that matches your expected schema.
+- **LLMs are probabilistic and can produce inconsistent outputs**, so you validate the JSON output against a predefined structure.
+- If validation fails, you can send it back to the LLM to fix it.
+- This ensures downstream code can reliably work with the data.
+- This is just *normal schema validation* with retry logic using tools like Pydantic, Zod, or data classes.
 
 ```mermaid
 graph LR
