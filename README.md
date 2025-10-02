@@ -104,7 +104,8 @@ graph LR
 ### 5. Control
 **Deterministic decision-making and process flow**
 
-- You don't want your LLM making every decision - some things should be handled by regular code. Use if/else statements, switch cases, and routing logic to direct flow based on conditions.
+- You don't want your LLM making every decision - some things should be handled by regular code.
+- Use regular code if/else statements, switch cases, and routing logic to direct flow based on conditions.
 - This is just *normal business logic and routing* that you'd write in any application.
 
 ```mermaid
