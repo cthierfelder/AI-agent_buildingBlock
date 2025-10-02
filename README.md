@@ -74,6 +74,7 @@ graph LR
     E --> I
 ```
 
+Tools available
 - Function calling: Call custom code to give the model access to additional data and capabilities.
 - Web search: Include data from the Internet in model response generation.
 - Remote MCP servers: Give the model access to new capabilities via Model Context Protocol (MCP) servers.
