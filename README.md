@@ -31,7 +31,10 @@ These are the fundamental primitives. But how do you actually combine them? That
 ### 1. Intelligence
 **The only truly "AI" component**
 
-This is where the magic happens - and it's surprisingly simple. You send text to an LLM, it thinks about it, and sends text back. That's it. **Without this, you just have regular software.** The tricky part isn't the LLM call itself - it's everything else you need to build around it.
+- This is where the magic happens - and it's surprisingly simple. 
+- You send text to an LLM, it thinks about it, and sends text back.
+- That's it. **Without this, you just have regular software.**
+- The tricky part isn't the LLM call itself - it's everything else you need to build around it.
 
 ```mermaid
 graph LR
